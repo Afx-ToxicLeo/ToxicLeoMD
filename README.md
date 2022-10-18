@@ -20,7 +20,7 @@ Simple WhatsApp Bot
 
 ![Ra Github languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zivfurr&theme=tokyonight)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rlxfly/bot-tzy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Afx-ToxicLeo/ToxicLeoMD)
  
    
 
