@@ -1,7 +1,24 @@
 {
-  "name": "family",
-  "description": "WhatsApp Bot Using Library Baileys Multi Device",
-  "repository": "https://github.com/fokusdotid/family-md",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["bot", "whatsapp", "whatsapp-bot", "rpg", "games-wabot", "epic rpg"]
+  "name": "ToxicLeo-MD",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/toxic-leo1/toxic-leo1-ToxicLeo-Jsl-MD",
+  "logo": "https://i.postimg.cc/pXZW2gSv/null-20220918-WA0002.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
 }
